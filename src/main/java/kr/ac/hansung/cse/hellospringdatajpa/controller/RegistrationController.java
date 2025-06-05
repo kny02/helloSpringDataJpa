@@ -62,6 +62,6 @@ public class RegistrationController {
     public String adminUserList(Model model) {
         List<MyUser> users = registrationService.findAllUsers();
         model.addAttribute("users", users);
-        return "adminhome"; // 템플릿 파일명
+        return "adminhome";
     }
 }

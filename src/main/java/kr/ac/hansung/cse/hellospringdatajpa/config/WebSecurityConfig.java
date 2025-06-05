@@ -24,7 +24,7 @@ import org.springframework.security.web.authentication.SimpleUrlAuthenticationSu
 import java.io.IOException;
 
 @Configuration
-@EnableMethodSecurity(prePostEnabled = true)  // 이 줄만 추가하세요
+@EnableMethodSecurity(prePostEnabled = true)
 
 public class WebSecurityConfig {
 
